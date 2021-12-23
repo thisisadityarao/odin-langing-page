@@ -78,6 +78,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 nav ul {
@@ -109,9 +110,11 @@ main {
   font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
+  line-height: 1;
 }
 
 .hero p {
+  margin-top: 1rem;
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -124,6 +127,7 @@ main {
   border-radius: 8px;
   margin-top: 1em;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .hero-content,
@@ -133,3 +137,56 @@ main {
 .hero-content {
   margin-right: 1rem;
 }
+
+.info .container,
+.quote .container {
+  height: 500px;
+  display: block;
+  padding: 32px;
+}
+
+.info h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin-bottom: 32px;
+}
+.info .cards {
+  display: flex;
+  gap: 25px;
+}
+.info .cards img {
+  width: 100%;
+  border-radius: 8px;
+}
+.info .cards p {
+  text-align: center;
+}
+.quote {
+  background-color: #e5e7eb;
+}
+.quote .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quote blockquote {
+  display: flex;
+  flex-direction: column;
+}
+.quote blockquote p {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+}
+.quote blockquote cite {
+  margin-top: 16px;
+  font-style: normal;
+  font-size: 26px;
+  font-weight: 700;
+  color: #1f2937;
+  align-self: flex-end;
+}
+
