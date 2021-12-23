@@ -56,6 +56,16 @@ body {
   justify-content: space-between;
 }
 
+.info .container,
+.quote .container,
+.signup .container {
+  height: 500px;
+  display: block;
+  padding: 32px;
+}
+
+/************* HERO SECTION ************/
+
 .hero .container {
   height: 500px;
   justify-content: space-between;
@@ -138,12 +148,7 @@ main {
   margin-right: 1rem;
 }
 
-.info .container,
-.quote .container {
-  height: 500px;
-  display: block;
-  padding: 32px;
-}
+/************* INFO SECTION ************/
 
 .info h2 {
   text-align: center;
@@ -163,6 +168,9 @@ main {
 .info .cards p {
   text-align: center;
 }
+
+/************* QUOTE SECTION ************/
+
 .quote {
   background-color: #e5e7eb;
 }
@@ -190,3 +198,55 @@ main {
   align-self: flex-end;
 }
 
+/************* SIGNUP SECTION ************/
+
+.signup .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.signup .content {
+  background-color: #3883f6;
+  color: #fff;
+  width: 1000px;
+  height: 180px;
+  border-radius: 8px;
+  padding: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup h2 {
+  font-size: x-large;
+}
+
+.signup .content div:first-child {
+  flex: 1;
+}
+
+.signup .content button {
+  background-color: #3883f6;
+  padding: 0.8em 2em;
+  color: white;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  margin-left: 1em;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/************* FOOTER ************/
+
+footer .container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .container p {
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+}
